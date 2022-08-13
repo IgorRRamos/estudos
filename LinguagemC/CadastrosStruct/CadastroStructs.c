@@ -32,16 +32,18 @@ int main(int argc, char *argv[]) {
 
         switch (escolha) {
             case 1:
-                cadastrar(pessoas, &cont);
-                cont++;
                 system("cls");
+                cadastrar(pessoas, &cont);
+                cont++:
                 break;
 
             case 2:
+                system("cls");
                 listarTodos(pessoas, cont);
                 break;
 
             case 3:
+                system("cls");
                 printf("DIGITE O NOME DO CADASTRO: ");
                 fgets(busca, 50, stdin);
                 setbuf(stdin, NULL);
@@ -51,6 +53,7 @@ int main(int argc, char *argv[]) {
                 break;
 
             case 4:
+                system("cls");
                 printf("DIGITE O CODIGO DO CADASTRO: ");
                 scanf("%d", &codigoBusca);
                 setbuf(stdin, NULL);
