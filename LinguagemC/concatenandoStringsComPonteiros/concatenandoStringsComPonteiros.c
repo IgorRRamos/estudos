@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main() {
-    char name1[50] = "Felipe", name2[] = "Soares";
+    char name1[50] = "Igor", name2[] = "Ramos";
     char *p1 = &name1, *p2 = &name2;
 
     for (; *p1; p1++)
