@@ -70,7 +70,6 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-// Função para leitura dos dados
 void cadastrar(cadastros pessoas[], int *cont) {
     printf("CODIGO: ");
     scanf("%d", &pessoas[*cont].codigo);
@@ -89,10 +88,10 @@ void cadastrar(cadastros pessoas[], int *cont) {
 
 void listarTodos(cadastros pessoas[], int cont) {
     for (int i = 0; i < cont; i++) {
-        printf("CODIGO: %d", pessoas[i].codigo);
+        printf("CODIGO: %d\n", pessoas[i].codigo);
         printf("NOME: %s", pessoas[i].nome);
-        printf("IDADE: %d", pessoas[i].idade);
-        printf("SALARIO: %.3lf", pessoas[i].salario);
+        printf("IDADE: %d\n", pessoas[i].idade);
+        printf("SALARIO: %.3lf\n", pessoas[i].salario);
         puts("\n");
     }
 }
@@ -100,10 +99,10 @@ void listarTodos(cadastros pessoas[], int cont) {
 void listagem(cadastros pessoas[], int cont, int busca) {
     for (int i = 0; i < cont; i++) {
         if (strcmp(busca, pessoas[i].nome) == 0) {
-            printf("CODIGO: %d", pessoas[i].codigo);
-            printf("NOME: %s", pessoas[i].nome);
-            printf("IDADE: %d", pessoas[i].idade);
-            printf("SALARIO: %.3lf", pessoas[i].salario);
+            printf("CODIGO: %d\n", pessoas[i].codigo);
+            printf("NOME: %s\n", pessoas[i].nome);
+            printf("IDADE: %d\n", pessoas[i].idade);
+            printf("SALARIO: %.3lf\n", pessoas[i].salario);
             puts("\n");
         } else {
             printf("NOME DE USUARIO INEXISTENTE!\n");
