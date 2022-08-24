@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1661365408 source:c:\users\iramo\documents\estudos\linguagemc\animal\forca\main.c
+	<locale.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
