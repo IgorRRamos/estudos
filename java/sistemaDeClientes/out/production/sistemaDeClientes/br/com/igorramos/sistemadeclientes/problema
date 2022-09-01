@@ -1,0 +1,24 @@
+Sistema de clientes
+
+o Cliente deverá conter:
+-nome, codigo, limite de credito e a situação especial (boolean).
+
+devem ser utilizados os seguintes protótipos:
+
+Obrigatoriamente devem ser contidos os seguintes métodos:
+
+-atualizarSituacao(){}
+-atualizarLimite(){}
+
+..
+
+o limite só podera ser aumentado no caso do cliente ser especial, e sempre que a situação especial for voltada
+para false, o limite também será zerado.
+
+
+Após a implementação, deverá ser realizado os seguintes testes:
+
+cliente.atualizarLimite(200.00);
+cliente.atualizarSituacao(true);
+cliente.atualizarLimite(200.00);
+cliente.atualizarSituacao(false);
