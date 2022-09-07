@@ -1,4 +1,3 @@
-import br.com.igorramos.controleremoto.Controlador;
 import br.com.igorramos.controleremoto.ControleRemoto;
 
 public class Main {
