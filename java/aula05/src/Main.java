@@ -1,0 +1,15 @@
+import br.com.igorramos.controleremoto.Controlador;
+import br.com.igorramos.controleremoto.ControleRemoto;
+
+public class Main {
+    public static void main(String[] args) {
+        ControleRemoto c = new ControleRemoto();
+
+        c.ligar();
+        c.maisVolume();
+        c.play();
+        c.abrirMenu();
+        c.fecharMenu();
+
+    }
+}

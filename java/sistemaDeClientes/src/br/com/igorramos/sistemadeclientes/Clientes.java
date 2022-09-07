@@ -13,12 +13,6 @@ public class Clientes {
     }
 
     public boolean situation;
-
-    public Clientes(){
-        this.setLimite(0);
-        this.setSituation(false);
-    }
-
     public void status(){
         System.out.println(" ");
         System.out.println("NOME: " + this.name);
@@ -37,7 +31,7 @@ public class Clientes {
     }
 
    public void aumentarLimite(float l){
-        if(this.situation == false){
+        if(!isSituation()){
             System.out.println("NAO E ESPECIAL, LIMITE ZERADO");
             this.setLimite(0);
         }else if(this.situation == true){
