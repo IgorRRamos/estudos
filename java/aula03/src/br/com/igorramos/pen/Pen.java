@@ -66,11 +66,14 @@ public class Pen {
     }
 
     public void destampar(){
-<<<<<<< HEAD
-        this.setTampada(!this.getTampada());
-=======
+        if(getTampada()) {
             this.setTampada(!this.getTampada());
->>>>>>> 17cf77ada25d6ae5503c34a4727ccd817cd2f47b
+        }
+    }
+    public void tampar(){
+        if(!getTampada()) {
+            this.setTampada(true);
+        }
     }
 
     public void status(){
