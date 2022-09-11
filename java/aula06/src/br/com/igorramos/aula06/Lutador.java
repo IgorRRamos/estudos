@@ -37,7 +37,7 @@ public class Lutador {
 
     //Metodos especiais
 
-    //Contrutor com parametros criado para praticidade na criação dos atletas!
+    //Construtor com parametros criado para praticidade na criação dos atletas!
     public Lutador(String nome, String nacionalidade, float peso, float altura, int idade, int vitorias, int derrotas) {
         this.nome = nome;
         this.nacionalidade = nacionalidade;

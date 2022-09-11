@@ -3,10 +3,10 @@ import br.com.igorramos.aula06.Lutador;
 
 public class Main {
     public static void main(String[] args) {
-        //Criação de um vetor para armazenar os lutadores, a criação do vetor se da a facilidade de armazenamento!
+        //Criação de um vetor para armazenar os lutadores, a criação do vetor se da a praticidade no armazenamento!
         Lutador atleta[] = new Lutador[6];
 
-        //Declarando meu atletas!
+        //Declarando meus atletas!
         atleta[0] = new Lutador("Anderon Silva", "Brasileiro", 65.5f, 1.80f, 35, 32, 4);
         atleta[1] = new Lutador("Felipe Soares", "Brasileiro", 67.0f, 1.67f, 22, 1, 0 );
         atleta[2] = new Lutador("Igor Ramos", "Brasileiro", 75.5f, 1.85f, 25, 5, 3);
