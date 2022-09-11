@@ -8,6 +8,7 @@ public class Main {
         caneta.destampar();
         caneta.rabiscar();
         caneta.status();
-
+        caneta.destampar();
+        caneta.status();
     }
 }
