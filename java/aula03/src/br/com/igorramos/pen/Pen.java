@@ -9,11 +9,11 @@ public class Pen {
 
     //Metodos
     public Pen(){
-        this.setMarca("CIS");
-        this.setCor("AZUL");
-        this.setPonta(0.5f);
-        this.setCarga(100);
-        this.setTampada(true);
+        setMarca("CIS");
+        setCor("AZUL");
+        setPonta(0.5f);
+        setCarga(100);
+        setTampada(true);
     }
 
     public String getMarca() {
@@ -59,14 +59,18 @@ public class Pen {
     public void rabiscar(){
         if(!this.getTampada()){
             System.out.println("RABISCANDO");
-            this.setCarga(this.getCarga() - 1);
+            setCarga(getCarga() - 1);
         }else{
             System.out.println("CANETA TAMPADA");
         }
     }
 
     public void destampar(){
+<<<<<<< HEAD
         this.setTampada(!this.getTampada());
+=======
+            this.setTampada(!this.getTampada());
+>>>>>>> 17cf77ada25d6ae5503c34a4727ccd817cd2f47b
     }
 
     public void status(){
