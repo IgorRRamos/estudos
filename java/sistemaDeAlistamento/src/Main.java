@@ -40,12 +40,8 @@ public class Main {
                     coleta.verificandoMaioridade();
                     break;
 
-                case 3:
-
-                    break;
-
-
                 default:
+                    System.out.println("OPCAO INVALIDA!");
                     break;
             }
 
