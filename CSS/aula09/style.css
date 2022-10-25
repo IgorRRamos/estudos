@@ -1,0 +1,21 @@
+.texto1{
+    color: red;
+    text-align: center;
+}
+
+.texto2{
+    color: blue;
+    text-align: center;
+    text-align: justify;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
+}
+
+.texto3{
+    color: green;
+    text-align: justify;
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
