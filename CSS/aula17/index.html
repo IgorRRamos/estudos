@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .card{
+            position: relative;
+            float: left;
+            border: 2px solid green;
+            width: 400px;
+            height: 200px;
+            text-align: center;
+        }
+
+        .c1{
+            background-color: #008080;
+            line-height: 200px; /*Usado para realizar o posicionamento do elemento, porém, é necessário saber "hight" do pai "Valor fixo, não é possivel usar valor relativo exp: 50%!".*/
+        }
+
+        .c2{
+            background-color: #1E90FF;
+            position: absolute; /*Por utilizar o "position: absolute;" o text-align: center do .card perdeu o efeito.*/
+            top: 50%; /*Esse valor e referente ao pai nesse caso o "card"*/
+            left: 50%; /*Esse valor e referente ao pai nesse caso o "card"*/
+            transform: translate(-50%, -50%); /*Translate começa de cima para baixo, ou seja valor positivo posicionamento do conteudo vai para baixo-
+            se negativo o conteudo vai para cima. O valor adicionado no translate é referente ao conteúdo de fato.*/
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="c1">
+            Igor Ramos
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="c2">
+            Igor Ramos
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizando imagem</title>
+
+    <style type="text/css">
+        body{
+            front-size: 1.2rem;
+        }
+
+        #quadrado{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            margin-left: auto; /*Posiciona a imagem automatimente na tela! */
+        }
+
+        .image1{
+            display: block; /*É possível utilizar o "margin: auto;" em imagem apenas se estiver como displaaay block! */
+            margin: auto;
+            /*Para fazer isso com uma imagem em "display inline-block" é necessario a imagem estar dentro de alguma outro elemento e dentro do elemente é preciso colocar o estilo text-align.*/
+        }
+
+    </style>
+
+</head>
+<body>
+    
+
+    <div id="quadrado">
+    </div>
+
+    <img src="./assets/-793291313.jpg" alt="image1">
+
+</body>
+</html>

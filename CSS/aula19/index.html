@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            overflow: hidden;
+            background-color: blue;
+            margin: auto;
+            width: 80%;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .logo {
+            float: left;
+            color: white;
+
+        }
+
+        .menu {
+            list-style: none;
+            margin: auto;
+            color: white;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+
+        li {
+            float: left;
+            color: white;
+            margin-left: 15px;
+        }
+
+        @media screen and (max-width: 400px) {
+
+            .header {
+                float: none;
+                text-align: center;
+            }
+
+            .menu {
+                margin-top: 20px;
+                float: none;
+                text-align: center;
+            }
+
+            .li{
+                float: none;
+                background-color: red;
+                margin-bottom: 5px;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            logo
+        </div>
+
+        <ul class="menu">
+            <li>home</li>
+            <li>cursos</li>
+            <li>contato</li>
+            <li>escritorios</li>
+        </ul>
+    </div>
+</body>
+
+</html>

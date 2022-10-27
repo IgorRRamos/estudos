@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        body{
+            font-size: 1.2rem;
+        }
+
+        .static{
+            position: static; /*Não muda de posicão*/
+        }
+
+        .relative{
+            position: relative; /*Será posicionado inicialmente igual ao static, porém, pode receber
+            outras propriedades "right", "top", "left", "bottom" e dara um distanciamento de acordo com o valor dessas propriedades!*/
+            top: 15px;
+            left: 20px;
+        }
+
+        .fixed{
+            position: fixed; /*tera o posicionamento fixo com relação a pagina/janela.*/
+            right: 20px;
+            bottom: 20px;
+        }
+
+        .absolute{
+            position: absolute; /*É parecido com o diplay static, porém ele também pode receber propriedades de posicionamento:
+            "absolute" funciona em referencia ao pai do nosso elemento, ou em relação ao body se não tiver pai*/
+            left: 0;
+        }
+
+        .quadrado{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        .bg-blue{
+            background-color: blue;
+            
+        }
+
+        .bg-red{
+            background-color: red;
+        }
+
+        .bg-yellow{
+            background-color: yellow;
+        }
+
+        .bg-green{
+            background-color: green;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="static quadrado bg-blue">
+    </div>
+
+    <div class="relative quadrado bg-red">
+    </div>
+    
+    <div class="fixed quadrado bg-yellow">
+    </div>
+    
+    <div class="absolute quadrado bg-green">
+    </div>
+    
+</body>
+</html>
