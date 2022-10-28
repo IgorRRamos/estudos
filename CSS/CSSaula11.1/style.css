@@ -1,0 +1,17 @@
+body{
+    margin: 30px;
+}
+
+.link1{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid;
+}
+
+.link1:hover{
+    background-color: black;
+    color: white;
+}

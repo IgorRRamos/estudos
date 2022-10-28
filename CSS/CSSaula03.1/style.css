@@ -1,0 +1,17 @@
+#paragrafo1{
+    background-color: green;
+    color: black;
+    text-align: center;
+}
+
+#paragrafo2{
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
+
+.paragrafo3{
+    background-color: blue;
+    color: pink;
+}
