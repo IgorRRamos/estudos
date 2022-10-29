@@ -1,0 +1,46 @@
+.head{
+    font-family: Arial;
+    width: 600px;
+    font-size: 12px;
+}
+
+.tabela{
+    background-color: #c7e7f3;
+    width: 600px;
+}
+
+p{
+    background-color: #0d5188;
+    text-align: center;
+    color: white;
+    width:598px;
+    border: 1px solid #c7e7f3;
+    margin: 0;
+}
+
+.number{
+    width: 15%;
+}
+
+.nameCity{
+    color: #0d5188;
+}
+
+.position{
+    background-color: #C0C0C0;
+    text-align: center;
+    width: 10%;
+}
+
+.headPosition{
+    background-color:  #66C5E3;
+}
+
+.city{
+    background-color:  #66C5E3;
+}
+
+.population{
+    background-color:  #66C5E3;
+}
+
