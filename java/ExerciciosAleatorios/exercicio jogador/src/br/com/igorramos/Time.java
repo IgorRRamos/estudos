@@ -1,6 +1,9 @@
 package br.com.igorramos;
-
+import java.util.ArrayList;
+import java.util.Scanner;
 public class Time {
+
+    public ArrayList<Jogador> jogadores;
     public int totPlayers, totSuspendedPayers;
 
     public int getTotPlayers() {

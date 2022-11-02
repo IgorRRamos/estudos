@@ -3,7 +3,6 @@ import java.util.ArrayList;
 
 public class Jogador {
 
-    public ArrayList<Jogador> jogador;
     public int yellowCards, redCards, age, shirtNumber;
     public String name, position;
     public boolean suspended;
@@ -14,14 +13,6 @@ public class Jogador {
         }else if(colorCard.equals("yellow")){
             this.setYellowCards(this.getYellowCards() + 1);
         }
-    }
-
-    public ArrayList<Jogador> getJogador() {
-        return jogador;
-    }
-
-    public void setJogador(ArrayList<Jogador> jogador) {
-        this.jogador = jogador;
     }
 
     public int getYellowCards() {
