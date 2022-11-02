@@ -3,11 +3,23 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Time {
 
-    public ArrayList<Jogador> jogadores;
+    private ArrayList<Jogador> jogadores;
     public int totPlayers, totSuspendedPayers;
+
+    public Time(ArrayList<Jogador> jogadores){
+        this.jogadores = jogadores;
+    }
 
     public int getTotPlayers() {
         return totPlayers;
+    }
+
+    public ArrayList<Jogador> getJogadores() {
+        return jogadores;
+    }
+
+    public void setJogadores(ArrayList<Jogador> jogadores) {
+        this.jogadores = jogadores;
     }
 
     public void setTotPlayers(int totPlayers) {
