@@ -1,12 +1,21 @@
 package br.com.igorramos;
+import java.util.ArrayList;
+
 public class Jogador {
+
+    public ArrayList<Jogador> jogador;
     public int yellowCards, redCards, age, shirtNumber;
     public String name, position;
     public boolean suspended;
 
 
+    public ArrayList<Jogador> getJogador() {
+        return jogador;
+    }
 
-
+    public void setJogador(ArrayList<Jogador> jogador) {
+        this.jogador = jogador;
+    }
 
     public int getYellowCards() {
         return yellowCards;
