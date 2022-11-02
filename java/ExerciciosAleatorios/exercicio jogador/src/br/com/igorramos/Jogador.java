@@ -8,6 +8,13 @@ public class Jogador {
     public String name, position;
     public boolean suspended;
 
+    public void card(String colorCard){
+        if(colorCard.equals("red")){
+            this.setRedCards(1);
+        }else if(colorCard.equals("yellow")){
+            this.setYellowCards(this.getYellowCards() + 1);
+        }
+    }
 
     public ArrayList<Jogador> getJogador() {
         return jogador;
