@@ -1,58 +1,36 @@
 package br.com.igorramos;
-import java.util.ArrayList;
+public class Jogador extends Pessoa{
+    public String position;
+    public int shirtNumber, yellowCard, redCard;
 
-public class Jogador {
+    public Jogador(String name, int age, float heigth) {
+        this.name = name;
+        this.age = age;
+        this.height = height;
+    }
 
-    public int yellowCards, redCards, age, shirtNumber;
-    public String name, position;
-    public boolean suspended;
-
-    public void card(String colorCard){
-        if(colorCard.equals("red")){
-            this.setRedCards(1);
-        }else if(colorCard.equals("yellow")){
-            this.setYellowCards(this.getYellowCards() + 1);
+    public void card(String cartao){
+        if(cartao.equals("red")){
+            this.setRedCard(1);
+        }else if(cartao.equals("yellow")){
+            this.setYellowCard(getYellowCard() + 1);
         }
     }
 
-    public int getYellowCards() {
-        return yellowCards;
+    public int getYellowCard() {
+        return yellowCard;
     }
 
-    public void setYellowCards(int yellowCards) {
-        this.yellowCards = yellowCards;
+    public void setYellowCard(int yellowCard) {
+        this.yellowCard = yellowCard;
     }
 
-    public int getRedCards() {
-        return redCards;
+    public int getRedCard() {
+        return redCard;
     }
 
-    public void setRedCards(int redCards) {
-        this.redCards = redCards;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public int getShirtNumber() {
-        return shirtNumber;
-    }
-
-    public void setShirtNumber(int shirtNumber) {
-        this.shirtNumber = shirtNumber;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public void setRedCard(int redCard) {
+        this.redCard = redCard;
     }
 
     public String getPosition() {
@@ -63,11 +41,11 @@ public class Jogador {
         this.position = position;
     }
 
-    public boolean isSuspended() {
-        return suspended;
+    public int getShirtNumber() {
+        return shirtNumber;
     }
 
-    public void setSuspended(boolean suspended) {
-        this.suspended = suspended;
+    public void setShirtNumber(int shirtNumber) {
+        this.shirtNumber = shirtNumber;
     }
 }
