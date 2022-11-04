@@ -3,7 +3,7 @@ public class Jogador extends Pessoa{
     public String position;
     public int shirtNumber, yellowCard, redCard;
 
-    public Jogador(String name, int age, float heigth) {
+    public Jogador(String name, int age, double heigth) {
         this.name = name;
         this.age = age;
         this.height = height;

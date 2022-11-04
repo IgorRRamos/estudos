@@ -10,13 +10,20 @@ public class ListaDeJogadores {
 
 
     public void registrar(){
+        System.out.print("Nome do jogador: ");
         String nome = teclado.nextLine();
+        System.out.print("Idade do jogador: ");
         int idade = teclado.nextInt();
-        float altura = teclado.nextFloat();
+        System.out.print("Altura do jogador: ");
+        double altura = teclado.nextFloat();
 
         Jogador newPlayer = new Jogador(nome, idade, altura);
 
         jogador.add(newPlayer);
+    }
+
+    public void removePlayer(){
+        jogador.remove(0);
     }
 
 
