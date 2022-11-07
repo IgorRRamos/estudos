@@ -21,7 +21,7 @@ public class ListaDeJogadores {
         System.out.print("Idade do jogador: ");
         int idade = teclado.nextInt();
         System.out.print("Altura do jogador: ");
-        double altura = teclado.nextFloat();
+        double altura = teclado.nextDouble();
 
         Jogador newPlayer = new Jogador(nome, idade, altura);
 
